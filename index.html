@@ -3,12 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>travel-log dummy deploy</title>
+  <title>旅ログ | MT-25 日帰りツーリング記録</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.8;
+      color: #222;
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+      background: #fff;
+    }
+    h1, h2 { line-height: 1.4; }
+    h1 { font-size: 2.1rem; margin-bottom: 0.5rem; }
+    h2 { margin-top: 2.2rem; font-size: 1.35rem; }
+    p { margin: 0.8rem 0; }
+    .lead { color: #555; margin-bottom: 2rem; }
+    .card {
+      border: 1px solid #e5e5e5;
+      border-radius: 14px;
+      padding: 1.2rem 1.3rem;
+      margin: 1rem 0;
+      background: #fafafa;
+    }
+    .meta {
+      color: #666;
+      font-size: 0.95rem;
+    }
+    a { color: #0b57d0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
-  <h1>travel-log dummy deploy</h1>
-  <p>GitHub and Cloudflare Pages upload test.</p>
-  <p>Generated at 2026-04-12 Asia/Tokyo.
-  <p>Auto deploy check 2.</p></p>
+  <header>
+    <h1>旅ログ</h1>
+    <p class="lead">MT-25で回った日帰りツーリングを中心に、その日の空気と実走記録を残すための個人ログ。</p>
+  </header>
+
+  <main>
+    <h2>最新記事</h2>
+    <section class="card">
+      <h3><a href="posts/2026-04-25-okayama-ishigami-chiarai.html">石上布都魂神社と血洗の滝を回る, 岡山日帰りツーリング記録</a></h3>
+      <p class="meta">2026-04-25 / 岡山 / MT-25 / 約205.4km</p>
+      <p>石上布都魂神社を主目的に、血洗の滝までつないだ岡山日帰りツーリング。くめなんで休憩後、疲れを見て無理せず帰宅したが、前半の流れだけでも十分に満足度の高い一日だった。</p>
+    </section>
+
+    <h2>公開済み記事</h2>
+    <section class="card">
+      <h3><a href="posts/2026-04-11-shimane-okuizumo-drive.html">島根・奥出雲を巡る春の日帰りツーリング記録</a></h3>
+      <p class="meta">2026-04-11 / 島根 / MT-25 / 約265km</p>
+      <p>道の駅, 滝, 棚田をつないで巡った春の奥出雲日帰りツーリング。派手さよりも、空気感と景色の連なりが印象に残った一日。</p>
+    </section>
+  </main>
 </body>
 </html>
